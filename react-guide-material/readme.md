@@ -30,4 +30,5 @@ https://code.visualstudio.com/
   `dsznajder.es7-react-js-snippets`  
 
   Reactのスニペット(ショートカット)を使えるようにする
+  https://github.com/ults-io/vscode-react-javascript-snippets/blob/HEAD/docs/Snippets.md
 
