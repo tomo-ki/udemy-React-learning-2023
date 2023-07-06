@@ -40,7 +40,7 @@ const Example = () => {
                   // POINT null合体演算子
                   animal ?? "null,undefinedでした"
                 }
-                {/* POINT &&演算子 */}
+                {/* POINT &&演算子 trueの時のみ&&の後の内容が実行される*/}
                 {animal === "Dog" && "★"}
               </li>
             );
