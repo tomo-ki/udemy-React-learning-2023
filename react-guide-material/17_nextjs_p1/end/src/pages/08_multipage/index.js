@@ -4,6 +4,7 @@ import { useRouter } from "next/router"
 
 export default function MultiPage() {
   const router = useRouter();
+  // クエリパラメータをstepとして定義
   const step = router.query.step ?? 0;
 
   const goToStep = (_step, asPath) => {
