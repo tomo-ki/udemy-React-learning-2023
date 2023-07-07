@@ -19,7 +19,7 @@ const Example = () => {
   let nullish: null = null;
   let undefinedValue: undefined = undefined;
 
-  // リテラル型
+  // リテラル型(特定の値のみ代入可能な型)
   let trueVal: true = true;
   let num123: 123 = 123;
   let strHello: 'Hello' = 'Hello';

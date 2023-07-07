@@ -9,11 +9,20 @@ const Example = () => {
   type Person = { name: string, age?: number }
   const obj1: Person = { name: 'Taro' };
   
-  const users: { name: string, age?: number }[] = [
+  const users1: { name: string, age?: number }[] = [
     { name: 'Taro' },
     { name: 'Hanako', age: 30 },
     { name: 'Jiro', age: 30 }
   ]
+  console.log(users1);
+  
+  const users2: Array<Person> = [
+    { name: "Taro" },
+    { name: "Hanako", age: 30 },
+    { name: "Jiro", age: 30 },
+  ];
+  console.log(users2);
+  
 };
 
 export default Example;
